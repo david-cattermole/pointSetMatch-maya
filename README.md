@@ -20,8 +20,6 @@ _To be written._
 
 ### Dependencies
 
-_To be written._
-
 - C++ compiler with support for C++11
 - CMake 2.6+
 - levmar 2.6+
