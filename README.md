@@ -22,7 +22,7 @@ _To be written._
 
 - C++ compiler with support for C++11
 - CMake 2.6+
-- levmar 2.6+
+- levmar 2.6+ (http://users.ics.forth.gr/~lourakis/levmar/)
 - Autodesk Maya 2016+
 
 ### Build
