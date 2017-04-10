@@ -12,13 +12,10 @@
 #include <string>    // string
 #include <vector>    // vector
 #include <cassert>   // assert
-//
 #include <math.h>
-#include <vector>
-#include <string>
 
 // Utils
-#include <debugUtils.h>
+#include <utilities/debugUtils.h>
 
 // Maya
 #include <maya/MPoint.h>

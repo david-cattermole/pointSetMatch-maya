@@ -1,12 +1,11 @@
 
-#ifndef POINT_SET_MATCH_CMD_H
-#define POINT_SET_MATCH_CMD_H
+#ifndef MAYA_POINT_SET_MATCH_CMD_H
+#define MAYA_POINT_SET_MATCH_CMD_H
 
-//#include <math.h>
+
+// Maya
 #include <maya/MIOStream.h>
-
 #include <maya/MPxCommand.h>
-
 #include <maya/MGlobal.h>
 #include <maya/MSelectionList.h>
 #include <maya/MItSelectionList.h>

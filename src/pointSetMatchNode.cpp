@@ -13,7 +13,7 @@
 #include <maya/MFnCompoundAttribute.h>
 
 // Debug
-#include <debugUtils.h>
+#include <utilities/debugUtils.h>
 
 MTypeId PointSetMatchNode::id(POINT_SET_MATCH_NODE_ID);
 

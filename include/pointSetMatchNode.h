@@ -1,13 +1,14 @@
 
-#ifndef POINT_SET_MATCH_NODE_H
-#define POINT_SET_MATCH_NODE_H
+#ifndef MAYA_POINT_SET_MATCH_NODE_H
+#define MAYA_POINT_SET_MATCH_NODE_H
 
+// STL
 #include <string>
 #include <cmath>
+
+// Maya
 #include <maya/MIOStream.h>
-
-#include <maya/MPxNode.h> 
-
+#include <maya/MPxNode.h>
 #include <maya/MString.h>
 #include <maya/MTypeId.h>
 #include <maya/MPlug.h>

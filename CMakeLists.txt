@@ -15,16 +15,17 @@ set(LEVMAR_ROOT "/home/davidc/bin/levmar/levmar-2.6")
 set(LEVMAR_INCLUDE ${LEVMAR_ROOT})
 set(LEVMAR_LIB ${LEVMAR_ROOT})
 
-# Utilities
-set(UTILS_INCLUDE "/home/davidc/dev/cppTests/utilities")
-
 #set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O0 -g -fPIC -std=c++0x")  # debug mode
 ## set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O2 -fPIC -std=c++0x")  # performance mode
 # set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -Wl,-Bsymbolic -shared")
 
+set(UTILITIES_FILES
+        include/utilities/debugUtils.h
+        )
 
 #
 set(SOURCE_FILES
+        ${UTILITIES_FILES}
         # include/testData1.h
         # include/testData2.h
         # include/testData3.h
@@ -35,11 +36,10 @@ set(SOURCE_FILES
         src/pointSetMatchNode.cpp
         # src/pointSetMatchCmd.cpp
         src/pointSetMatchMain.cpp
-)
+        )
 
 include_directories(
         include
-        ${UTILS_INCLUDE}
         ${LEVMAR_INCLUDE}
         ${MAYA_INCLUDE}
 )
